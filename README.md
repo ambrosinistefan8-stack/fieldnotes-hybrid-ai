@@ -2,7 +2,7 @@
 
 Practise a shift handover in English or German. Read a set of workplace measurements, choose what to report and check the log entries that support your answer. The exercises cover a building facade and a community kitchen. All readings are synthetic.
 
-[Open the free practice site](https://ambrosinistefan8-stack.github.io/fieldnotes-hybrid-ai/)
+[Open the free practice site](https://ambrosinistefan8-stack.github.io/fieldnotes-hybrid-ai/) · [Watch the English jury demo on YouTube](https://youtu.be/IhMXrPadoSI)
 
 In **Facade inspection**, try entering 30 °C for the change in the south-wall temperature. Select **Show evidence** to compare the first and last readings. In **Community kitchen handover**, the last question asks what to report for minute 15 when the record ends at minute 10. Switch languages at any time to keep your place.
 
