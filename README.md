@@ -40,7 +40,9 @@ node scripts/serve.mjs --device
 
 3. The server binds to loopback and displays a single-use invitation. Give it only to the invited adult tester. Open the local address, complete admission and select a question. Open **Coach for this question**, select the on-device consent box and click **Ask AI to choose a coaching step**. The result identifies the inference source and quotes its supporting rows.
 
-The device build blocks outbound requests. In a separate Firebase project on the Spark plan, two token exchanges using the registered App Check debug provider returned HTTP 200. For each token that Firebase issued, we verified the RS256 signature, issuer, project audience, app ID and expiration. Production reCAPTCHA attestation and live cloud-model fallback remain untested. See the [integration source](src/hybrid.js) and the [Firebase hybrid web guide](https://firebase.google.com/docs/ai-logic/hybrid/web/get-started).
+The device build blocks outbound requests. In a separate Firebase project on the Spark plan, two token exchanges using the registered App Check debug provider returned HTTP 200. For each token that Firebase issued, we verified the RS256 signature, issuer, project audience, app ID and expiration. Production reCAPTCHA attestation remains untested.
+
+In one private test on the free plan, the cloud request returned HTTP 403 before inference. Fieldnotes displayed its fallback guidance and identified it as coming from the handbook. Live cloud generation has not been demonstrated. See the [integration source](src/hybrid.js) and the [Firebase hybrid web guide](https://firebase.google.com/docs/ai-logic/hybrid/web/get-started).
 
 ## License
 
