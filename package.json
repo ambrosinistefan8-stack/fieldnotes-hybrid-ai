@@ -1,0 +1,20 @@
+{
+  "name": "fieldnotes-recall",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilingual shift handover practice for facilities and community kitchens, with a separate invited-adult Firebase lab.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "node test/browser.mjs"
+  },
+  "dependencies": {
+    "firebase": "13.4.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright-core": "1.65.0"
+  }
+}
